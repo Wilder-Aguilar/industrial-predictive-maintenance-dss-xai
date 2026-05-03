@@ -66,17 +66,17 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/Wilder-Aguilar/industrial-predictive-maintenance-dss-xai](https://github.com/Wilder-Aguilar/industrial-predictive-maintenance-dss-xai)
-```
+    ```
 
-Instalar dependencias:
+2. **Instalar dependencias:**
    ```bash
 pip install -r requirements.txt
-```
+    ```
 
-Ejecutar el notebook:
+3. **Ejecutar el notebook:**
    ```bash
 jupyter notebook notebooks/mantenimiento_predictivo.ipynb
-```
+    ```
 ---
 
 📈 **Resultados**
