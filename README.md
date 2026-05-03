@@ -46,19 +46,6 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 
 ---
 
-## 🚀 Ejecución del Proyecto
-
-Clona el repositorio, instala dependencias y ejecuta el notebook:
-
-```bash
-git clone https://github.com/Wilder-Aguilar/industrial-predictive-maintenance-dss-xai
-cd industrial-predictive-maintenance-dss-xai
-pip install -r requirements.txt
-jupyter notebook notebooks/mantenimiento_predictivo.ipynb
-```
-
----
-
 📈 **Resultados**
 
 * **Modelo seleccionado:** Gradient Boosting.
