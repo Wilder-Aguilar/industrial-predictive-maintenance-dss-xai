@@ -61,6 +61,8 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 
 🚀 **Ejecución del Proyecto**
 
+---
+
 1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
