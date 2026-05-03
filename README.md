@@ -59,7 +59,7 @@ El sistema logra una alta capacidad de detección de fallos manteniendo una inte
 📊 **Dashboard (Power BI)**
 Los resultados se visualizan mediante un dashboard estructurado en dos paneles:
 
-* **Panel 1: Monitoreo Global:** Vista general del estado de la planta.
+* **Panel 1: Monitoreo Global:** Vista general del estado de las máquinas.
 <img width="1841" height="1062" alt="plot_7 3_pbip1" src="https://github.com/user-attachments/assets/ca87f029-063c-464a-b92a-035d49eadc9a" />
 
   
