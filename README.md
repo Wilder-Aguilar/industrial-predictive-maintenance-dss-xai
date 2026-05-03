@@ -46,24 +46,6 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 
 ---
 
-📁 **Estructura del Repositorio**
-
-```text
-├── data/
-│   └── dataset_final.csv           # Datos procesados para el modelo
-├── notebooks/
-│   └── mantenimiento_predictivo.ipynb  # Proceso completo en Google Colab
-├── src/                            # Scripts modulares
-│   ├── preprocessing.py
-│   ├── feature_engineering.py
-│   ├── modeling.py
-│   ├── shap_analysis.py
-│   └── dss_generation.py
-├── images/                         # Figuras y diagramas del TFM
-├── README.md                       # Documentación principal
-└── requirements.txt                # Librerías necesarias
-```
-
 ## 🚀 Ejecución del Proyecto
 
 Clona el repositorio, instala dependencias y ejecuta el notebook:
