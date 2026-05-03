@@ -58,10 +58,10 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 ├── images/                         # Figuras y diagramas del TFM
 ├── README.md                       # Documentación principal
 └── requirements.txt                # Librerías necesarias
+```
+---
 
 🚀 **Ejecución del Proyecto**
-
----
 
 1. **Clonar el repositorio:**
    ```bash
