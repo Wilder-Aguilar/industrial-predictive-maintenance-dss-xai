@@ -88,7 +88,11 @@ El sistema logra una alta capacidad de detección de fallos manteniendo una inte
 Los resultados se visualizan mediante un dashboard estructurado en dos paneles:
 
 * **Panel 1: Monitoreo Global:** Vista general del estado de la planta.
+<img width="1841" height="1062" alt="plot_7 3_pbip1" src="https://github.com/user-attachments/assets/ca87f029-063c-464a-b92a-035d49eadc9a" />
+
+  
 * **Panel 2: Análisis Detallado:** Desglose por activo para identificar causas raíz y recomendaciones.
+<img width="1839" height="1048" alt="plot_7 4_pbip2" src="https://github.com/user-attachments/assets/be5fb300-7de3-4f41-aea2-bb91722a8840" />
 
 ---
 
