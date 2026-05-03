@@ -18,22 +18,25 @@ El objetivo principal es anticipar fallos y recomendar intervenciones de manteni
 
 ⚙️ **Metodología**
 
-El proyecto sigue un flujo estructurado compuesto por las siguientes fases:
+El proceso metodológico se estructura en tres bloques interrelacionados que conforman el *pipeline* del sistema:
 
-1. **Preprocesamiento de datos**
-    * Limpieza y transformación de datos brutos.
-    * Balanceo de clases mediante la técnica **SMOTE**.
-2. **Ingeniería de características**
-    * Generación de variables derivadas críticas: *Power*, *Temperature_difference* y *Mechanical_stress*.
-3. **Modelado**
-    * Algoritmos evaluados: Random Forest, Gradient Boosting y Support Vector Machine (SVM).
-    * **Modelo seleccionado:** Gradient Boosting.
-4. **Evaluación de modelos**
-    * Métricas clave: Accuracy, Recall (métrica prioritaria para evitar falsos negativos) y F1-score.
-5. **Interpretabilidad**
-    * Uso de **valores SHAP** para análisis de importancia global y local (por activo).
-6. **Sistema DSS**
-    * Generación automatizada de predicción de fallo, probabilidad, nivel de riesgo y recomendaciones de mantenimiento.
+## 1. Bloque de Datos
+
+* **Análisis Exploratorio:** Identificación de patrones y estados iniciales del dataset AI4I 2020.
+* **Preprocesamiento:** Limpieza de datos y balanceo de clases mediante la técnica **SMOTE**.
+* **Ingeniería de Características:** Generación de variables derivadas críticas (*Power*, *Temperature_difference* y *Mechanical_stress*).
+
+## 2. Bloque de Modelado
+
+* **Modelado ML:** Implementación y entrenamiento de algoritmos (*Random Forest*, *Gradient Boosting* y *SVM*).
+* **Evaluación de Modelos:** Análisis de rendimiento basado en *Accuracy*, *Recall* y *F1-score*.
+* **Predicción de Fallos:** Selección del modelo óptimo para la generación de predicciones.
+
+## 3. Bloque de Toma de Decisiones
+
+* **Sistema de Recomendación (DSS):** Traducción de las predicciones en niveles de riesgo y recomendaciones de mantenimiento preventivo.
+* **Dashboard:** Visualización interactiva de resultados y monitoreo de activos para el soporte a la decisión.
+* **Interpretabilidad:** Integración de **valores SHAP** para explicar la causa raíz de las alarmas generadas.
 
 ---
 
