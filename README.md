@@ -71,38 +71,37 @@ cd industrial-predictive-maintenance-dss-xai
 pip install -r requirements.txt
 jupyter notebook notebooks/mantenimiento_predictivo.ipynb
 ```
+
 ---
 
 📈 **Resultados**
 
-*   **Modelo seleccionado:** Gradient Boosting.
-*   **Recall (clase fallo):** 86.8%.
-*   **Variables más influyentes:** *Rotational speed*, *Power*, *Tool wear*.
+* **Modelo seleccionado:** Gradient Boosting.
+* **Recall (clase fallo):** 86.8%.
+* **Variables más influyentes:** *Rotational speed*, *Power*, *Tool wear*.
 
 El sistema logra una alta capacidad de detección de fallos manteniendo una interpretabilidad total para el operador industrial.
 
 ---
 
 📊 **Dashboard (Power BI)**
-
 Los resultados se visualizan mediante un dashboard estructurado en dos paneles:
 
-*   **Panel 1: Monitoreo Global:** Vista general del estado de la planta.
-*   **Panel 2: Análisis Detallado:** Desglose por activo para identificar causas raíz y recomendaciones.
+* **Panel 1: Monitoreo Global:** Vista general del estado de la planta.
+* **Panel 2: Análisis Detallado:** Desglose por activo para identificar causas raíz y recomendaciones.
+
 ---
 
 🌱 **Impacto en Sostenibilidad**
-
 Este sistema contribuye directamente a:
 
-*   Reducción del desperdicio de componentes mecánicos.
-*   Optimización de rutas e intervenciones de mantenimiento.
-*   Alineación con los **ODS 9** (Industria, Innovación e Infraestructura) y **ODS 12** (Producción y Consumo Responsables).
+* Reducción del desperdicio de componentes mecánicos.
+* Optimización de rutas e intervenciones de mantenimiento.
+* Alineación con los **ODS 9** (Industria, Innovación e Infraestructura) y **ODS 12** (Producción y Consumo Responsables).
 
 ---
 
 📜 **Licencia**
-
 Este proyecto ha sido desarrollado exclusivamente con fines académicos en el marco de un TFM.
 
 ---
