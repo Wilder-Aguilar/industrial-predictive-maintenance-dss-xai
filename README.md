@@ -5,6 +5,7 @@
 Este repositorio contiene la implementación de un **Sistema de Soporte a la Decisión (DSS)** orientado al mantenimiento predictivo en maquinaria industrial, desarrollado como parte de un **Trabajo de Fin de Máster**.
 
 El sistema integra:
+
 * **Modelos de Machine Learning** para la predicción de fallos.
 * **Técnicas de Inteligencia Artificial Explicable (SHAP)** para la transparencia de los modelos.
 * **Ingeniería de Características** mediante la generación de variables derivadas.
@@ -19,19 +20,19 @@ El objetivo principal es anticipar fallos y recomendar intervenciones de manteni
 
 El proyecto sigue un flujo estructurado compuesto por las siguientes fases:
 
-1.  **Preprocesamiento de datos**
+1. **Preprocesamiento de datos**
     * Limpieza y transformación de datos brutos.
     * Balanceo de clases mediante la técnica **SMOTE**.
-2.  **Ingeniería de características**
+2. **Ingeniería de características**
     * Generación de variables derivadas críticas: *Power*, *Temperature_difference* y *Mechanical_stress*.
-3.  **Modelado**
+3. **Modelado**
     * Algoritmos evaluados: Random Forest, Gradient Boosting y Support Vector Machine (SVM).
     * **Modelo seleccionado:** Gradient Boosting.
-4.  **Evaluación de modelos**
+4. **Evaluación de modelos**
     * Métricas clave: Accuracy, Recall (métrica prioritaria para evitar falsos negativos) y F1-score.
-5.  **Interpretabilidad**
+5. **Interpretabilidad**
     * Uso de **valores SHAP** para análisis de importancia global y local (por activo).
-6.  **Sistema DSS**
+6. **Sistema DSS**
     * Generación automatizada de predicción de fallo, probabilidad, nivel de riesgo y recomendaciones de mantenimiento.
 
 ---
@@ -59,24 +60,17 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 ├── README.md                       # Documentación principal
 └── requirements.txt                # Librerías necesarias
 ```
----
 
-🚀 **Ejecución del Proyecto**
+## 🚀 Ejecución del Proyecto
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/Wilder-Aguilar/industrial-predictive-maintenance-dss-xai](https://github.com/Wilder-Aguilar/industrial-predictive-maintenance-dss-xai)
-    ```
+Clona el repositorio, instala dependencias y ejecuta el notebook:
 
-2. **Instalar dependencias:**
-   ```bash
+```bash
+git clone https://github.com/Wilder-Aguilar/industrial-predictive-maintenance-dss-xai
+cd industrial-predictive-maintenance-dss-xai
 pip install -r requirements.txt
-    ```
-
-3. **Ejecutar el notebook:**
-   ```bash
 jupyter notebook notebooks/mantenimiento_predictivo.ipynb
-    ```
+```
 ---
 
 📈 **Resultados**
@@ -95,12 +89,12 @@ Los resultados se visualizan mediante un dashboard estructurado en dos paneles:
 
 *   **Panel 1: Monitoreo Global:** Vista general del estado de la planta.
 *   **Panel 2: Análisis Detallado:** Desglose por activo para identificar causas raíz y recomendaciones.
-
 ---
 
 🌱 **Impacto en Sostenibilidad**
 
 Este sistema contribuye directamente a:
+
 *   Reducción del desperdicio de componentes mecánicos.
 *   Optimización de rutas e intervenciones de mantenimiento.
 *   Alineación con los **ODS 9** (Industria, Innovación e Infraestructura) y **ODS 12** (Producción y Consumo Responsables).
@@ -116,4 +110,4 @@ Este proyecto ha sido desarrollado exclusivamente con fines académicos en el ma
 👤 **Autor**
 
 **Wilder Aguilar**  
-*Máster en Big Data y Ciencia de Datos*
+Máster en Big Data y Ciencia de Datos
