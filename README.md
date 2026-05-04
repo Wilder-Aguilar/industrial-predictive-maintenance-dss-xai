@@ -2,7 +2,7 @@
 
 📌 **Descripción General**
 
-Este repositorio contiene la implementación de un **Sistema de Soporte a la Decisión (DSS)** orientado al mantenimiento predictivo en maquinaria industrial, desarrollado como parte de un **Trabajo de Fin de Máster**.
+Este repositorio contiene la implementación de un **Sistema de Soporte a la Decisión (DSS)** orientado al mantenimiento predictivo en maquinaria industrial, desarrollado como parte del **Trabajo de Fin de Máster** en la Universidad Internacional de Valencia - VIU.
 
 El sistema integra:
 
@@ -46,37 +46,6 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 
 ---
 
-📁 **Estructura del Repositorio**
-
-```text
-├── data/
-│   └── dataset_final.csv           # Datos procesados para el modelo
-├── notebooks/
-│   └── mantenimiento_predictivo.ipynb  # Proceso completo en Google Colab
-├── src/                            # Scripts modulares
-│   ├── preprocessing.py
-│   ├── feature_engineering.py
-│   ├── modeling.py
-│   ├── shap_analysis.py
-│   └── dss_generation.py
-├── images/                         # Figuras y diagramas del TFM
-├── README.md                       # Documentación principal
-└── requirements.txt                # Librerías necesarias
-```
-
-## 🚀 Ejecución del Proyecto
-
-Clona el repositorio, instala dependencias y ejecuta el notebook:
-
-```bash
-git clone https://github.com/Wilder-Aguilar/industrial-predictive-maintenance-dss-xai
-cd industrial-predictive-maintenance-dss-xai
-pip install -r requirements.txt
-jupyter notebook notebooks/mantenimiento_predictivo.ipynb
-```
-
----
-
 📈 **Resultados**
 
 * **Modelo seleccionado:** Gradient Boosting.
@@ -90,8 +59,12 @@ El sistema logra una alta capacidad de detección de fallos manteniendo una inte
 📊 **Dashboard (Power BI)**
 Los resultados se visualizan mediante un dashboard estructurado en dos paneles:
 
-* **Panel 1: Monitoreo Global:** Vista general del estado de la planta.
+* **Panel 1: Monitoreo Global:** Vista general del estado de las máquinas.
+<img width="1841" height="1062" alt="plot_7 3_pbip1" src="https://github.com/user-attachments/assets/ca87f029-063c-464a-b92a-035d49eadc9a" />
+
+  
 * **Panel 2: Análisis Detallado:** Desglose por activo para identificar causas raíz y recomendaciones.
+<img width="1839" height="1048" alt="plot_7 4_pbip2" src="https://github.com/user-attachments/assets/be5fb300-7de3-4f41-aea2-bb91722a8840" />
 
 ---
 
