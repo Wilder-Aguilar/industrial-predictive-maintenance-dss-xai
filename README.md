@@ -16,6 +16,29 @@ El objetivo principal es anticipar fallos y recomendar intervenciones de manteni
 
 ---
 
+## 🛠️ Tecnologías y Herramientas
+
+El proyecto se ha desarrollado utilizando un stack tecnológico moderno, integrando herramientas de computación en la nube, lenguajes de programación estadística y plataformas de inteligencia de negocios:
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![XGBoost](https://img.shields.io/badge/XGBoost-black?style=for-the-badge&logo=xgboost&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+
+* [cite_start]**Lenguaje de Programación:** **Python (v3.10+)** utilizado para el procesamiento de datos y modelado[cite: 1447, 1448].
+* **Ciencia de Datos y ML:**
+    * [cite_start]**XGBoost:** Algoritmo principal seleccionado por su elevado rendimiento predictivo y robustez en la clasificación de fallos[cite: 845, 1154].
+    * [cite_start]**Scikit-Learn:** Empleado para la construcción de pipelines, preprocesamiento y evaluación de métricas[cite: 1448].
+    * [cite_start]**Imbalanced-learn (SMOTE):** Técnica utilizada para corregir el desbalance de clases en el conjunto de entrenamiento[cite: 777, 808].
+* **IA Explicable (XAI):**
+    * [cite_start]**SHAP (SHapley Additive exPlanations):** Implementado para cuantificar la contribución de cada variable y eliminar el efecto "caja negra" del modelo[cite: 303, 1168].
+* **Visualización y DSS:**
+    * [cite_start]**Power BI:** Plataforma donde se aloja el Sistema de Soporte a la Decisión (DSS) interactivo[cite: 1200, 1452].
+    * [cite_start]**DAX (Data Analysis Expressions):** Utilizado para operativizar el sistema de recomendación dentro del dashboard[cite: 1453].
+
+---
+
 ⚙️ **Metodología**
 
 El proceso metodológico se estructura en tres bloques interrelacionados que conforman el *pipeline* del sistema:
@@ -28,7 +51,7 @@ El proceso metodológico se estructura en tres bloques interrelacionados que con
 
 ## 2. Bloque de Modelado
 
-* **Modelado ML:** Implementación y entrenamiento de algoritmos (*Random Forest*, *Gradient Boosting* y *SVM*).
+* **Modelado ML:** Implementación y entrenamiento de algoritmos (*Random Forest*, *Gradient Boosting*, *SVM* y *XGBoost*).
 * **Evaluación de Modelos:** Análisis de rendimiento basado en *Accuracy*, *Recall* y *F1-score*.
 * **Predicción de Fallos:** Selección del modelo óptimo para la generación de predicciones.
 
@@ -48,11 +71,11 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 
 📈 **Resultados**
 
-* **Modelo seleccionado:** Gradient Boosting.
-* **Recall (clase fallo):** 86.8%.
+* **Modelo seleccionado:** XGBoost.
+* **Accuracy:** 98.35%.
+* **F1-score:** 0.76
 * **Variables más influyentes:** *Rotational speed*, *Power*, *Tool wear*.
-
-El sistema logra una alta capacidad de detección de fallos manteniendo una interpretabilidad total para el operador industrial.
+* **XAI:** Se logró eliminar el efecto "caja negra" mediante valores SHAP, permitiendo al operador entender por qué una máquina tiene riesgo alto.
 
 ---
 
@@ -74,6 +97,35 @@ Este sistema contribuye directamente a:
 * Reducción del desperdicio de componentes mecánicos.
 * Optimización de rutas e intervenciones de mantenimiento.
 * Alineación con los **ODS 9** (Industria, Innovación e Infraestructura) y **ODS 12** (Producción y Consumo Responsables).
+
+---
+🚀 **Instrucciones de Ejecución**
+Siga estos pasos para replicar el análisis y ejecutar el Sistema de Soporte a la Decisión (DSS) en su entorno local:
+
+## 1. Requisitos Previos
+* Cuenta de Google (para utilizar Google Colab).
+* Power BI Desktop instalado (para visualizar el dashboard .pbix).
+* El dataset original ai4i2020.csv (incluido en la carpeta /datasets).
+
+## 2. Procesamiento de Datos y Modelado (Python)
+* Acceda a la carpeta /notebooks y abra el archivo TFM_Aguilar_Wilder_Mantenimiento.ipynb en Google Colab.
+* Cargue el archivo ai4i2020.csv cuando el notebook lo solicite o súbalo directamente a la sesión de Colab.
+* Ejecute todas las celdas del cuaderno. Este proceso realizará:
+Limpieza e Ingeniería de Características.
+Entrenamiento del modelo XGBoost.
+Cálculo de valores SHAP para interpretabilidad.
+* Al finalizar, el notebook generará un archivo llamado dashboard_mantenimiento.csv. Descargue este archivo.
+
+## 3. Visualización en Power BI (DSS)
+* Abra el archivo tfm.pbix ubicado en la carpeta raíz del repositorio mediante Power BI Desktop.
+* Si el dashboard no carga los datos automáticamente, diríjase a:
+Inicio > Transformar datos > Configuración de origen de datos.
+Cambie la ruta del origen para que apunte al archivo dashboard_mantenimiento.csv que descargó en el paso anterior.
+Haga clic en Aplicar cambios para actualizar las visualizaciones con los resultados del modelo.
+
+## 4. Exploración del Sistema
+* Panel de Monitoreo Global: Evalúe el estado general de los activos industriales.
+* Panel de Análisis Detallado: Seleccione una máquina específica para ver sus probabilidades de fallo y las recomendaciones de mantenimiento basadas en la IA explicable.
 
 ---
 
