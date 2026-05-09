@@ -1,4 +1,4 @@
-# Sistema de Mantenimiento Predictivo con DSS y AI Explicable
+# Desarrollo de un sistema de recomendación de intervenciones de mantenimiento preventivo para máquinas industriales
 
 ## 📌 **Descripción General**
 
