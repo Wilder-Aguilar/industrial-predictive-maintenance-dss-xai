@@ -113,10 +113,9 @@ Siga estos pasos para replicar el análisis y ejecutar el Sistema de Soporte a l
 * Acceda a la carpeta /notebooks y abra el archivo TFM_Aguilar_Wilder_Mantenimiento.ipynb en Google Colab.
 * Cargue el archivo ai4i2020.csv cuando el notebook lo solicite o súbalo directamente a la sesión de Colab.
 * Ejecute todas las celdas del cuaderno. Este proceso realizará:
-  
-Limpieza e Ingeniería de Características.
-Entrenamiento del modelo XGBoost.
-Cálculo de valores SHAP para interpretabilidad.
+ * Limpieza e Ingeniería de Características.
+ * Entrenamiento del modelo XGBoost.
+ * Cálculo de valores SHAP para interpretabilidad.
 * Al finalizar, el notebook generará un archivo llamado dashboard_mantenimiento.csv. Descargue este archivo.
 
 ### 3. Visualización en Power BI (DSS)
