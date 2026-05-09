@@ -26,16 +26,16 @@ El proyecto se ha desarrollado utilizando un stack tecnológico moderno, integra
 ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-* [cite_start]**Lenguaje de Programación:** **Python (v3.10+)** utilizado para el procesamiento de datos y modelado[cite: 1447, 1448].
+* **Lenguaje de Programación:** **Python (v3.10+)** utilizado para el procesamiento de datos y modelado.
 * **Ciencia de Datos y ML:**
-    * [cite_start]**XGBoost:** Algoritmo principal seleccionado por su elevado rendimiento predictivo y robustez en la clasificación de fallos[cite: 845, 1154].
-    * [cite_start]**Scikit-Learn:** Empleado para la construcción de pipelines, preprocesamiento y evaluación de métricas[cite: 1448].
-    * [cite_start]**Imbalanced-learn (SMOTE):** Técnica utilizada para corregir el desbalance de clases en el conjunto de entrenamiento[cite: 777, 808].
+    * **XGBoost:** Algoritmo principal seleccionado por su elevado rendimiento predictivo y robustez en la clasificación de fallos.
+    * **Scikit-Learn:** Empleado para la construcción de pipelines, preprocesamiento y evaluación de métricas.
+    * **Imbalanced-learn (SMOTE):** Técnica utilizada para corregir el desbalance de clases en el conjunto de entrenamiento.
 * **IA Explicable (XAI):**
-    * [cite_start]**SHAP (SHapley Additive exPlanations):** Implementado para cuantificar la contribución de cada variable y eliminar el efecto "caja negra" del modelo[cite: 303, 1168].
+    * **SHAP (SHapley Additive exPlanations):** Implementado para cuantificar la contribución de cada variable y eliminar el efecto "caja negra" del modelo.
 * **Visualización y DSS:**
-    * [cite_start]**Power BI:** Plataforma donde se aloja el Sistema de Soporte a la Decisión (DSS) interactivo[cite: 1200, 1452].
-    * [cite_start]**DAX (Data Analysis Expressions):** Utilizado para operativizar el sistema de recomendación dentro del dashboard[cite: 1453].
+    * **Power BI:** Plataforma donde se aloja el Sistema de Soporte a la Decisión (DSS) interactivo.
+    * **DAX (Data Analysis Expressions):** Utilizado para operativizar el sistema de recomendación dentro del dashboard.
 
 ---
 
