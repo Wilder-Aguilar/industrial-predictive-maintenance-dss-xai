@@ -47,7 +47,7 @@ El proceso metodológico se estructura en tres bloques interrelacionados que con
 ### 1. Bloque de Datos
 
 * **Análisis Exploratorio:** Identificación de patrones y estados iniciales del dataset AI4I 2020.
-* **Preprocesamiento:** Limpieza de datos y balanceo de clases mediante la técnica **SMOTE**.
+* **Preprocesamiento:** Limpieza de datos y balanceo de clases.
 * **Ingeniería de Características:** Generación de variables derivadas críticas (*Power*, *Temperature_difference* y *Mechanical_stress*).
 
 ### 2. Bloque de Modelado
@@ -73,7 +73,9 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 ## 📈 **Resultados**
 
 * **Modelo seleccionado:** XGBoost.
-* **Accuracy:** 98.35%.
+* **Accuracy:** 98.4%.
+* **Precision:** 0.76
+* **Recall:** 0.75
 * **F1-score:** 0.76
 * **Variables más influyentes:** *Rotational speed*, *Power*, *Tool wear*.
 * **XAI:** Se logró eliminar el efecto "caja negra" mediante valores SHAP, permitiendo al operador entender por qué una máquina tiene riesgo alto.
@@ -115,8 +117,8 @@ Siga estos pasos para replicar el análisis y ejecutar el Sistema de Soporte a l
 
 ### 2. Procesamiento de Datos y Modelado (Python)
 
-* Acceda a la carpeta /notebooks y abra el archivo TFM_Aguilar_Wilder_Mantenimiento.ipynb en Google Colab.
-* Cargue el archivo ai4i2020.csv cuando el notebook lo solicite o súbalo directamente a la sesión de Colab.
+* Acceda a la carpeta /notebooks y abra el archivo TFM_AguilarWilder_SistemaRecomendacion.ipynb en Google Colab.
+* Cargue el archivo ai4i2020.csv cuando el notebook lo solicite.
 * Ejecute todas las celdas del cuaderno. Este proceso realizará:
     * Limpieza e Ingeniería de Características.
     * Entrenamiento del modelo XGBoost.
@@ -125,7 +127,7 @@ Siga estos pasos para replicar el análisis y ejecutar el Sistema de Soporte a l
 
 ### 3. Visualización en Power BI (DSS)
 
-* Abra el archivo tfm.pbix ubicado en la carpeta raíz del repositorio mediante Power BI Desktop.
+* Abra el archivo TFM_AguilarWilder_SistemaRecomendacion.pbix ubicado en la carpeta raíz del repositorio mediante Power BI Desktop.
 * Si el dashboard no carga los datos automáticamente, diríjase a:
     * Inicio > Transformar datos > Configuración de origen de datos.
     * Cambie la ruta del origen para que apunte al archivo dashboard_mantenimiento.csv que descargó en el paso anterior.
