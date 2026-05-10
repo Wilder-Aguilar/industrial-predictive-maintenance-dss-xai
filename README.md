@@ -28,6 +28,7 @@ El proyecto se ha desarrollado utilizando un stack tecnológico moderno, integra
 
 * **Lenguaje de Programación:** **Python (v3.10+)** utilizado para el procesamiento de datos y modelado.
 * **Ciencia de Datos y ML:**
+
     * **XGBoost:** Algoritmo principal seleccionado por su elevado rendimiento predictivo y robustez en la clasificación de fallos.
     * **Scikit-Learn:** Empleado para la construcción de pipelines, preprocesamiento y evaluación de métricas.
     * **Imbalanced-learn (SMOTE):** Técnica utilizada para corregir el desbalance de clases en el conjunto de entrenamiento.
@@ -93,6 +94,7 @@ Los resultados se visualizan mediante un dashboard estructurado en dos paneles:
 ---
 
 ## 🌱 **Impacto en Sostenibilidad**
+
 Este sistema contribuye directamente a:
 
 * Reducción del desperdicio de componentes mecánicos.
@@ -102,14 +104,17 @@ Este sistema contribuye directamente a:
 ---
 
 ## 🚀 **Instrucciones de Ejecución**
+
 Siga estos pasos para replicar el análisis y ejecutar el Sistema de Soporte a la Decisión (DSS) en su entorno local:
 
 ### 1. Requisitos Previos
+
 * Cuenta de Google (para utilizar Google Colab).
 * Power BI Desktop instalado (para visualizar el dashboard .pbix).
 * El dataset original ai4i2020.csv (incluido en la carpeta /datasets).
 
 ### 2. Procesamiento de Datos y Modelado (Python)
+
 * Acceda a la carpeta /notebooks y abra el archivo TFM_Aguilar_Wilder_Mantenimiento.ipynb en Google Colab.
 * Cargue el archivo ai4i2020.csv cuando el notebook lo solicite o súbalo directamente a la sesión de Colab.
 * Ejecute todas las celdas del cuaderno. Este proceso realizará:
@@ -119,6 +124,7 @@ Siga estos pasos para replicar el análisis y ejecutar el Sistema de Soporte a l
 * Al finalizar, el notebook generará un archivo llamado dashboard_mantenimiento.csv. Descargue este archivo.
 
 ### 3. Visualización en Power BI (DSS)
+
 * Abra el archivo tfm.pbix ubicado en la carpeta raíz del repositorio mediante Power BI Desktop.
 * Si el dashboard no carga los datos automáticamente, diríjase a:
     * Inicio > Transformar datos > Configuración de origen de datos.
@@ -126,12 +132,14 @@ Siga estos pasos para replicar el análisis y ejecutar el Sistema de Soporte a l
     * Haga clic en Aplicar cambios para actualizar las visualizaciones con los resultados del modelo.
 
 ### 4. Exploración del Sistema
+
 * Panel de Monitoreo Global: Evalúe el estado general de los activos industriales.
 * Panel de Análisis Detallado: Seleccione una máquina específica para ver sus probabilidades de fallo y las recomendaciones de mantenimiento basadas en la IA explicable.
 
 ---
 
 ## 📜 **Licencia**
+
 Este proyecto ha sido desarrollado exclusivamente con fines académicos en el marco de un TFM.
 
 ---
