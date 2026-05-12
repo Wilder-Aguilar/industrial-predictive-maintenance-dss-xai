@@ -38,6 +38,24 @@ El proyecto se ha desarrollado utilizando un stack tecnológico moderno, integra
     * **Power BI:** Plataforma donde se aloja el Sistema de Soporte a la Decisión (DSS) interactivo.
     * **DAX (Data Analysis Expressions):** Utilizado para operativizar el sistema de recomendación dentro del dashboard.
 
+
+## 🛠️ Tecnologías y Herramientas
+
+<p align="left">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+  <img src="https://img.shields.io/badge/XGBoost-black?style=for-the-badge&logo=xgboost&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
+</p>
+
+* **Core:** Python (Pandas, NumPy) para ETL e Ingeniería de Características.
+* **ML:** **XGBoost** (Clasificación), Scikit-Learn (Pipelines) y SMOTE para balanceo.
+* **XAI:** **SHAP** para la interpretación de la "caja negra".
+* **DSS:** Power BI + **DAX** para el sistema de recomendación interactivo.
+
+
+
 ---
 
 ## ⚙️ **Metodología**
@@ -81,25 +99,6 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 * **XAI:** Se logró eliminar el efecto "caja negra" mediante valores SHAP, permitiendo al operador entender por qué una máquina tiene riesgo alto.
 
 <img width="1002" height="680" alt="plot_5_7_model_comparison" src="https://github.com/user-attachments/assets/1b06b60d-dad7-4d22-bcea-6a0c3d08d2da" />
-
-
-## 📈 Resultados del Proyecto
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Algorithm-XGBoost-blue?style=flat-square&logo=python&logoColor=white" alt="Model" />
-  <img src="https://img.shields.io/badge/Model_Accuracy-98.4%25-brightgreen?style=flat-square&logo=target" alt="Accuracy" />
-  <img src="https://img.shields.io/badge/Precision-0.76-orange?style=flat-square" alt="Precision" />
-  <img src="https://img.shields.io/badge/Recall-0.75-yellow?style=flat-square" alt="Recall" />
-  <img src="https://img.shields.io/badge/F1--Score-0.76-red?style=flat-square" alt="F1-Score" />
-</p>
-
-### 🔑 Variables más influyentes
-*   **Rotational speed** (Velocidad de rotación)
-*   **Power** (Potencia)
-*   **Tool wear** (Desgaste de herramienta)
-
-### 🧠 Inteligencia Artificial Explicable (XAI)
-Se logró eliminar el efecto **"caja negra"** mediante el uso de valores **SHAP**, permitiendo al operador entender con precisión los factores que determinan un riesgo alto en la maquinaria.
 
 ---
 
