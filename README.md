@@ -101,6 +101,15 @@ Este sistema contribuye directamente a:
 
 ---
 
+## 📂 Estructura del Repositorio
+
+* `📂 datasets/`: Archivo original `ai4i2020.csv` y output procesado.
+* `📂 notebooks/`: Jupyter Notebook con el ciclo completo de Data Science.
+* `📂 dashboard/`: Archivo `.pbix` de Power BI.
+* `📂 docs/`: Documentación adicional o capturas del sistema.
+
+---
+
 ## 🚀 **Instrucciones de Ejecución**
 
 Siga estos pasos para replicar el análisis y ejecutar el Sistema de Soporte a la Decisión (DSS) en su entorno local:
