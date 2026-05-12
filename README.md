@@ -79,7 +79,7 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 * **Variables clave:** *Rotational speed*, *Power*, *Tool wear*.
 * **Interpretación:** Gracias a los **valores SHAP**, el sistema no solo predice el fallo, sino que identifica cuál de estas variables es la responsable, permitiendo un mantenimiento preventivo dirigido.
 
-<img width=902" height="500" alt="plot_5_7_model_comparison" src="https://github.com/user-attachments/assets/1b06b60d-dad7-4d22-bcea-6a0c3d08d2da" />
+<img width=1002" height="550" alt="plot_5_7_model_comparison" src="https://github.com/user-attachments/assets/1b06b60d-dad7-4d22-bcea-6a0c3d08d2da" />
 
 ---
 
