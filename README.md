@@ -63,20 +63,6 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 
 ---
 
-## 📈 **Resultados**
-
-* **Modelo seleccionado:** XGBoost.
-* **Accuracy:** 98.4%.
-* **Precision:** 0.76
-* **Recall:** 0.75
-* **F1-score:** 0.76
-* **Variables más influyentes:** *Rotational speed*, *Power*, *Tool wear*.
-* **XAI:** Se logró eliminar el efecto "caja negra" mediante valores SHAP, permitiendo al operador entender por qué una máquina tiene riesgo alto.
-
-<img width="1002" height="680" alt="plot_5_7_model_comparison" src="https://github.com/user-attachments/assets/1b06b60d-dad7-4d22-bcea-6a0c3d08d2da" />
-
-
-
 ## 📈 Resultados del Modelo
 
 <p align="left">
@@ -90,7 +76,7 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 * **Variables clave:** *Rotational speed*, *Power*, *Tool wear*.
 * **Interpretación:** Gracias a los **valores SHAP**, el sistema no solo predice el fallo, sino que identifica cuál de estas variables es la responsable, permitiendo un mantenimiento preventivo dirigido.
 
-
+<img width="1002" height="600" alt="plot_5_7_model_comparison" src="https://github.com/user-attachments/assets/1b06b60d-dad7-4d22-bcea-6a0c3d08d2da" />
 
 ---
 
