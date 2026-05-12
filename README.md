@@ -26,10 +26,11 @@ El objetivo principal es anticipar fallos y recomendar intervenciones de manteni
   <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
 </p>
 
-* **Core:** Python (Pandas, NumPy) para ETL e Ingeniería de Características.
-* **ML:** **XGBoost** (Clasificación), Scikit-Learn (Pipelines) y SMOTE para balanceo.
-* **XAI:** **SHAP** para la interpretación de la "caja negra".
-* **DSS:** Power BI + **DAX** para el sistema de recomendación interactivo.
+* **Core:** Python (Pandas, NumPy) para procesos de ETL e Ingeniería de Características.
+* **Modelado ML:** Aunque **XGBoost** fue seleccionado como el modelo óptimo, el estudio incluyó la implementación y evaluación comparativa de **Random Forest**, **Gradient Boosting** y **SVM**.
+* **Librerías de Soporte:** Scikit-Learn (Pipelines y métricas) e Imbalanced-learn (SMOTE) para el tratamiento del desbalance de clases.
+* **XAI:** **SHAP** (SHapley Additive exPlanations) para garantizar la interpretabilidad y transparencia del modelo.
+* **DSS:** Power BI + **DAX** para la arquitectura del sistema de soporte a la decisión interactivo.
 
 ---
 
