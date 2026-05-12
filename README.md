@@ -26,7 +26,7 @@ El proyecto se ha desarrollado utilizando un stack tecnológico moderno, integra
 ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-* **Lenguaje de Programación:** **Python (v3.10+)** utilizado para el procesamiento de datos y modelado.
+* **Lenguaje de Programación:** **Python** utilizado para el procesamiento de datos y modelado.
 * **Ciencia de Datos y ML:**
 
     * **XGBoost:** Algoritmo principal seleccionado por su elevado rendimiento predictivo y robustez en la clasificación de fallos.
