@@ -82,6 +82,25 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 
 <img width="1002" height="680" alt="plot_5_7_model_comparison" src="https://github.com/user-attachments/assets/1b06b60d-dad7-4d22-bcea-6a0c3d08d2da" />
 
+
+## 📈 Resultados del Proyecto
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Algorithm-XGBoost-blue?style=flat-square&logo=python&logoColor=white" alt="Model" />
+  <img src="https://img.shields.io/badge/Model_Accuracy-98.4%25-brightgreen?style=flat-square&logo=target" alt="Accuracy" />
+  <img src="https://img.shields.io/badge/Precision-0.76-orange?style=flat-square" alt="Precision" />
+  <img src="https://img.shields.io/badge/Recall-0.75-yellow?style=flat-square" alt="Recall" />
+  <img src="https://img.shields.io/badge/F1--Score-0.76-red?style=flat-square" alt="F1-Score" />
+</p>
+
+### 🔑 Variables más influyentes
+*   **Rotational speed** (Velocidad de rotación)
+*   **Power** (Potencia)
+*   **Tool wear** (Desgaste de herramienta)
+
+### 🧠 Inteligencia Artificial Explicable (XAI)
+Se logró eliminar el efecto **"caja negra"** mediante el uso de valores **SHAP**, permitiendo al operador entender con precisión los factores que determinan un riesgo alto en la maquinaria.
+
 ---
 
 ## 📊 **Dashboard (Power BI)**
