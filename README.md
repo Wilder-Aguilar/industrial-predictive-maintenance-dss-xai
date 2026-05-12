@@ -143,6 +143,29 @@ Siga estos pasos para replicar el análisis y ejecutar el Sistema de Soporte a l
 * Panel de Monitoreo Global: Evalúe el estado general de los activos industriales.
 * Panel de Análisis Detallado: Seleccione una máquina específica para ver sus probabilidades de fallo y las recomendaciones de mantenimiento basadas en la IA explicable.
 
+
+## 🚀 Instrucciones de Ejecución
+
+Siga estos pasos para replicar el análisis y ejecutar el Sistema de Soporte a la Decisión (DSS):
+
+### 1. Requisitos Previos
+* Cuenta de Google (para ejecutar el notebook en **Google Colab**).
+* Power BI Desktop instalado.
+* Dataset `ai4i2020.csv` (disponible en la carpeta `/datasets`).
+
+### 2. Procesamiento de Datos y Modelado
+1. Acceda a la carpeta `/notebooks` y abra el archivo `TFM_AguilarWilder_SistemaRecomendacion.ipynb` directamente en **Google Colab**.
+2. Cargue el archivo `ai4i2020.csv` cuando el script lo solicite.
+3. Ejecute todas las celdas. El proceso generará automáticamente un archivo de salida llamado `dashboard_mantenimiento.csv`. **Descárguelo**.
+
+### 3. Visualización en Power BI
+1. Abra el archivo `TFM_AguilarWilder_SistemaRecomendacion.pbix` (ubicado en la raíz del repo).
+2. Para actualizar los datos con su nueva ejecución:
+   * Vaya a **Inicio** > **Transformar datos** > **Configuración de origen de datos**.
+   * Cambie la ruta para que apunte al archivo `dashboard_mantenimiento.csv` que descargó de Colab.
+   * Haga clic en **Aplicar cambios**.
+
+
 ---
 
 ## 📜 **Licencia**
