@@ -103,46 +103,12 @@ Este sistema contribuye directamente a:
 
 ## 📂 Estructura del Repositorio
 
-* `📂 datasets/`: Archivo original `ai4i2020.csv` y output procesado.
-* `📂 notebooks/`: Jupyter Notebook con el ciclo completo de Data Science.
-* `📂 dashboard/`: Archivo `.pbix` de Power BI.
-* `📂 docs/`: Documentación adicional o capturas del sistema.
+* **`📂 datasets/`**: Contiene el dataset original `ai4i2020.csv` y el archivo de salida `dashboard_mantenimiento.csv`.
+* **`📂 notebooks/`**: Incluye `TFM_AguilarWilder_SistemaRecomendacion.ipynb`, el cual está optimizado para su ejecución en **Google Colab**.
+* **`📂 dashboard/`**: Contiene el archivo de Power BI `TFM_AguilarWilder_SistemaRecomendacion.pbix`, que aloja el Sistema de Soporte a la Decisión (DSS).
+* **`📂 docs/`**: Documentación complementaria, capturas de pantalla del dashboard y diagramas metodológicos.
 
 ---
-
-## 🚀 **Instrucciones de Ejecución**
-
-Siga estos pasos para replicar el análisis y ejecutar el Sistema de Soporte a la Decisión (DSS) en su entorno local:
-
-### 1. Requisitos Previos
-
-* Cuenta de Google (para utilizar Google Colab).
-* Power BI Desktop instalado (para visualizar el dashboard .pbix).
-* El dataset original ai4i2020.csv (incluido en la carpeta /datasets).
-
-### 2. Procesamiento de Datos y Modelado (Python)
-
-* Acceda a la carpeta /notebooks y abra el archivo TFM_AguilarWilder_SistemaRecomendacion.ipynb en Google Colab.
-* Cargue el archivo ai4i2020.csv cuando el notebook lo solicite.
-* Ejecute todas las celdas del cuaderno. Este proceso realizará:
-    * Limpieza e Ingeniería de Características.
-    * Entrenamiento del modelo XGBoost.
-    * Cálculo de valores SHAP para interpretabilidad.
-* Al finalizar, el notebook generará un archivo llamado dashboard_mantenimiento.csv. Descargue este archivo.
-
-### 3. Visualización en Power BI (DSS)
-
-* Abra el archivo TFM_AguilarWilder_SistemaRecomendacion.pbix ubicado en la carpeta raíz del repositorio mediante Power BI Desktop.
-* Si el dashboard no carga los datos automáticamente, diríjase a:
-    * Inicio > Transformar datos > Configuración de origen de datos.
-    * Cambie la ruta del origen para que apunte al archivo dashboard_mantenimiento.csv que descargó en el paso anterior.
-    * Haga clic en Aplicar cambios para actualizar las visualizaciones con los resultados del modelo.
-
-### 4. Exploración del Sistema
-
-* Panel de Monitoreo Global: Evalúe el estado general de los activos industriales.
-* Panel de Análisis Detallado: Seleccione una máquina específica para ver sus probabilidades de fallo y las recomendaciones de mantenimiento basadas en la IA explicable.
-
 
 ## 🚀 Instrucciones de Ejecución
 
@@ -159,12 +125,11 @@ Siga estos pasos para replicar el análisis y ejecutar el Sistema de Soporte a l
 3. Ejecute todas las celdas. El proceso generará automáticamente un archivo de salida llamado `dashboard_mantenimiento.csv`. **Descárguelo**.
 
 ### 3. Visualización en Power BI
-1. Abra el archivo `TFM_AguilarWilder_SistemaRecomendacion.pbix` (ubicado en la raíz del repo).
+1. Abra el archivo `TFM_AguilarWilder_SistemaRecomendacion.pbix` (ubicado en la carpeta `/dashboard`).
 2. Para actualizar los datos con su nueva ejecución:
    * Vaya a **Inicio** > **Transformar datos** > **Configuración de origen de datos**.
    * Cambie la ruta para que apunte al archivo `dashboard_mantenimiento.csv` que descargó de Colab.
    * Haga clic en **Aplicar cambios**.
-
 
 ---
 
