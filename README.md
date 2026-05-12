@@ -32,6 +32,24 @@ El objetivo principal es anticipar fallos y recomendar intervenciones de manteni
 * **XAI:** **SHAP** (SHapley Additive exPlanations) para garantizar la interpretabilidad y transparencia del modelo.
 * **DSS:** Power BI + **DAX** para la arquitectura del sistema de soporte a la decisión interactivo.
 
+
+
+## 🛠️ Tecnologías y Herramientas
+
+<p align="left">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+  <img src="https://img.shields.io/badge/XGBoost-black?style=for-the-badge&logo=xgboost&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+</p>
+
+> **Modelos evaluados durante la fase de experimentación:**
+> ![Random Forest](https://img.shields.io/badge/Random_Forest-00441b?style=flat-square) ![Gradient Boosting](https://img.shields.io/badge/Gradient_Boosting-00441b?style=flat-square) ![SVM](https://img.shields.io/badge/SVM-00441b?style=flat-square)
+
+* **Core:** Python (Pandas, NumPy) para procesos de ETL e Ingeniería de Características [cite: 5feb76d8-65ee-45f4-9bef-8f1835d35244, 256f8897-9e3c-4e85-ae25-c30460df63a5, b7ed26b9-1ce0-48a9-8429-869430e08693, 446c08de-9ddf-40a7-bf93-c29686a5810d, 250cf209-2d4f-4e8d-ad32-c3f42b6133a4, dceb8e5f-77db-48e1-81e9-960d786b8e42, 9d6d7465-1ead-406f-bb3e-560aa3160626, 9ddea030-7483-4cb0-be08-b5a73998d182].
+* **Modelado ML:** Aunque **XGBoost** fue seleccionado como el modelo óptimo, el estudio incluyó la evaluación comparativa de **Random Forest**, **Gradient Boosting** y **SVM** [cite: 5feb76d8-65ee-45f4-9bef-8f1835d35244, 256f8897-9e3c-4e85-ae25-c30460df63a5, b7ed26b9-1ce0-48a9-8429-869430e08693, 446c08de-9ddf-40a7-bf93-c29686a5810d, 250cf209-2d4f-4e8d-ad32-c3f42b6133a4, dceb8e5f-77db-48e1-81e9-960d786b8e42, 9d6d7465-1ead-406f-bb3e-560aa3160626, 9ddea030-7483-4cb0-be08-b5a73998d182].
+* **XAI:** **SHAP** para garantizar la interpretabilidad y transparencia del modelo [cite: 5feb76d8-65ee-45f4-9bef-8f1835d35244, 256f8897-9e3c-4e85-ae25-c30460df63a5, b7ed26b9-1ce0-48a9-8429-869430e08693, 446c08de-9ddf-40a7-bf93-c29686a5810d, 250cf209-2d4f-4e8d-ad32-c3f42b6133a4, dceb8e5f-77db-48e1-81e9-960d786b8e42, 9d6d7465-1ead-406f-bb3e-560aa3160626, 9ddea030-7483-4cb0-be08-b5a73998d182].
+
 ---
 
 ## ⚙️ **Metodología**
