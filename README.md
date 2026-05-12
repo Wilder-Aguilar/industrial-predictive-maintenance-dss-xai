@@ -87,18 +87,11 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 Los resultados se visualizan mediante un dashboard estructurado en dos paneles:
 
 * **Panel 1: Monitoreo Global:** Vista general del estado de las máquinas.
-<img width="1493" height="838" alt="plot_7_3_pbip1" src="https://github.com/user-attachments/assets/6b7714e9-f182-4bcf-9d1c-85e601053324" />
-
-
 <img width="1493" height="767" alt="3  Panel 1" src="https://github.com/user-attachments/assets/7e248948-7871-4273-9eb5-41b62fe337ab" />
 
   
 * **Panel 2: Análisis Detallado:** Desglose por activo para identificar causas raíz y recomendaciones.
-<img width="1494" height="836" alt="plot_7_4_pbip2" src="https://github.com/user-attachments/assets/4728de0f-1702-4590-9970-a4a149643d85" />
-
-
 <img width="1494" height="836" alt="4  Panel 2" src="https://github.com/user-attachments/assets/f5f52d29-ef98-4901-a042-791817a59468" />
-
 
 ---
 
