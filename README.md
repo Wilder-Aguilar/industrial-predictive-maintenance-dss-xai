@@ -18,29 +18,6 @@ El objetivo principal es anticipar fallos y recomendar intervenciones de manteni
 
 ## 🛠️ Tecnologías y Herramientas
 
-El proyecto se ha desarrollado utilizando un stack tecnológico moderno, integrando herramientas de computación en la nube, lenguajes de programación estadística y plataformas de inteligencia de negocios:
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![XGBoost](https://img.shields.io/badge/XGBoost-black?style=for-the-badge&logo=xgboost&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-
-* **Lenguaje de Programación:** **Python** utilizado para el procesamiento de datos y modelado.
-* **Ciencia de Datos y ML:**
-
-    * **XGBoost:** Algoritmo principal seleccionado por su elevado rendimiento predictivo y robustez en la clasificación de fallos.
-    * **Scikit-Learn:** Empleado para la construcción de pipelines, preprocesamiento y evaluación de métricas.
-    * **Imbalanced-learn (SMOTE):** Técnica utilizada para corregir el desbalance de clases en el conjunto de entrenamiento.
-* **IA Explicable (XAI):**
-    * **SHAP (SHapley Additive exPlanations):** Implementado para cuantificar la contribución de cada variable y eliminar el efecto "caja negra" del modelo.
-* **Visualización y DSS:**
-    * **Power BI:** Plataforma donde se aloja el Sistema de Soporte a la Decisión (DSS) interactivo.
-    * **DAX (Data Analysis Expressions):** Utilizado para operativizar el sistema de recomendación dentro del dashboard.
-
-
-## 🛠️ Tecnologías y Herramientas
-
 <p align="left">
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
   <img src="https://img.shields.io/badge/XGBoost-black?style=for-the-badge&logo=xgboost&logoColor=white" />
@@ -53,8 +30,6 @@ El proyecto se ha desarrollado utilizando un stack tecnológico moderno, integra
 * **ML:** **XGBoost** (Clasificación), Scikit-Learn (Pipelines) y SMOTE para balanceo.
 * **XAI:** **SHAP** para la interpretación de la "caja negra".
 * **DSS:** Power BI + **DAX** para el sistema de recomendación interactivo.
-
-
 
 ---
 
@@ -99,6 +74,23 @@ El proyecto utiliza el dataset **AI4I 2020 Predictive Maintenance**, que simula 
 * **XAI:** Se logró eliminar el efecto "caja negra" mediante valores SHAP, permitiendo al operador entender por qué una máquina tiene riesgo alto.
 
 <img width="1002" height="680" alt="plot_5_7_model_comparison" src="https://github.com/user-attachments/assets/1b06b60d-dad7-4d22-bcea-6a0c3d08d2da" />
+
+
+
+## 📈 Resultados del Modelo
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Algorithm-XGBoost-blue?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Model_Accuracy-98.4%25-brightgreen?style=flat-square&logo=target" />
+  <img src="https://img.shields.io/badge/Precision-0.76-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Recall-0.75-yellow?style=flat-square" />
+  <img src="https://img.shields.io/badge/F1--Score-0.76-red?style=flat-square" />
+</p>
+
+* **Variables clave:** *Rotational speed*, *Power*, *Tool wear*.
+* **Interpretación:** Gracias a los **valores SHAP**, el sistema no solo predice el fallo, sino que identifica cuál de estas variables es la responsable, permitiendo un mantenimiento preventivo dirigido.
+
+
 
 ---
 
