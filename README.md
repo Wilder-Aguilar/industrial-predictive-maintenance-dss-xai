@@ -110,7 +110,7 @@ Este sistema contribuye directamente a:
 * **`📂 datasets/`**: Contiene el dataset original `ai4i2020.csv` y el archivo de salida `dashboard_mantenimiento.csv`.
 * **`📂 notebooks/`**: Incluye `TFM_AguilarWilder_SistemaRecomendacion.ipynb`, el cual está optimizado para su ejecución en **Google Colab**.
 * **`📂 dashboard/`**: Contiene el archivo de Power BI `TFM_AguilarWilder_SistemaRecomendacion.pbix`, que aloja el Sistema de Soporte a la Decisión (DSS).
-* **`📂 docs/`**: Documentación complementaria, capturas de pantalla del dashboard y diagramas metodológicos.
+* **`📂 docs/`**: Documentación complementaria y capturas de pantalla del dashboard.
 
 ---
 
