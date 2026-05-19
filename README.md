@@ -2,7 +2,7 @@
 
 ## 📌 **Descripción General**
 
-Este repositorio contiene la implementación de un **Sistema de Soporte a la Decisión (DSS)** orientado al mantenimiento predictivo en maquinaria industrial, desarrollado como parte del **Trabajo de Fin de Máster** en la Universidad Internacional de Valencia - VIU.
+Este repositorio contiene la implementación de un **Sistema de Soporte a la Decisión (DSS)** orientado al mantenimiento preventivo en maquinaria industrial, desarrollado como parte del **Trabajo de Fin de Máster** en la Universidad Internacional de Valencia - VIU.
 
 El sistema integra:
 
@@ -146,4 +146,3 @@ Este proyecto ha sido desarrollado exclusivamente con fines académicos en el ma
 ## 👤 **Autor**
 
 **Wilder Aguilar**  
-Máster en Big Data y Ciencia de Datos
