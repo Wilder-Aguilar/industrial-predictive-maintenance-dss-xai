@@ -146,3 +146,5 @@ Este proyecto ha sido desarrollado exclusivamente con fines académicos en el ma
 ## 👤 **Autor**
 
 **Wilder Aguilar**  
+
+![Visitas](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FWilder-Aguilar%2Findustrial-predictive-maintenance-dss-xai&count_bg=%23007ec6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitas&edge_flat=false)
