@@ -147,6 +147,4 @@ Este proyecto ha sido desarrollado exclusivamente con fines académicos en el ma
 
 **Wilder Aguilar**  
 
-<a href="https://github.com/Wilder-Aguilar/industrial-predictive-maintenance-dss-xai">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Wilder-Aguilar/industrial-predictive-maintenance-dss-xai&count_bg=%23007ec6&title_bg=%23555555&title=Visitas" alt="Contador de Visitas"/>
-</a>
+![Visitas](https://visitor-badge.laobi.icu/badge?page_id=Wilder-Aguilar.industrial-predictive-maintenance-dss-xai&color=blue)
