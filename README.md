@@ -147,4 +147,4 @@ Este proyecto ha sido desarrollado exclusivamente con fines académicos en el ma
 
 **Wilder Aguilar**  
 
-
+![Visitas](https://visitor-badge.laobi.icu/badge?page_id=Wilder-Aguilar.industrial-predictive-maintenance-dss-xai&color=blue)
